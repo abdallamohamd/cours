@@ -1,0 +1,47 @@
+﻿@model List<Courses>
+@{
+    ViewData["Title"] = "index";
+}
+<div class="row">
+    <div class="col-md-4 mx-auto rounded border p-3">
+
+        <h1 class="text-center  mb-5 text-danger ">All Courses</h1>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form class="d-flex" asp-controller="cours" asp-action="index">
+            <input name="sstring" class="form form-control" type="search" placeholder="search" aria-label="search"/>
+            <span> </span>
+           <button class="btn btn-danger" type="submit"> Search</button>
+        </form>
+
+    </div>
+</div>
+<br />
+<table class="table">
+    <thead class="table-success">
+        <tr >
+            <th> ID</th>
+            <th> Name</th>
+            <th> Start-DATE</th>
+            <th> Cost </th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+           <tr>
+               <td> @item.Id</td>
+               <td> @item.Name</td>
+               <td> @item.startDate</td>
+               <td> @item.Price</td>
+               <td>@item.category.Name</td>
+           </tr>
+        }
+    </tbody>
+
+</table>
+

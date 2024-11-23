@@ -1,0 +1,77 @@
+﻿@model WebApplication1.v_model.coursvmodel
+
+@{
+    ViewData["Title"] = "add";
+    SelectList selcat = new SelectList(ViewBag.clist,"Id","Name");
+    SelectList sellab = new SelectList(ViewBag.lablist,"Id","name");
+    SelectList selin = new SelectList(ViewBag.inlist,"Id","Name");
+}
+
+
+<div class="row">
+    <div class="col-md-4 mx-auto rounded border p-3">
+
+        <h1 class="text-center mb-5 text-primary">Add Courses</h1>
+    </div>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="sadd" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="startDate" class="control-label"></label>
+                <input asp-for="startDate" class="form-control" />
+                <span asp-validation-for="startDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="categoryid" class="control-label"></label>
+                <select asp-for="categoryid" class="form-control" asp-items="selcat">
+                    <option value="0">--slecte--</option>
+                </select>
+                <span asp-validation-for="categoryid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="labid" class="control-label"></label>
+                <select asp-for="labid" class="form-control" asp-items="sellab">
+                    <option value="0">--slecte--</option>
+                </select>
+                <span asp-validation-for="labid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="insid" class="control-label"></label>
+                <select asp-for="insid" class="form-control" asp-items="selin" >
+                    <option value="0">--slecte--</option>
+                </select>
+                <span asp-validation-for="insid" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group row" >
+                <div class=" col-sm-4 d-grid">
+
+                <input type="submit" value="Add" class="btn btn-danger" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class=" col-sm-4 d-grid">
+        <a class="btn btn-outline-primary" asp-action="index" role="button">Back to List</a>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

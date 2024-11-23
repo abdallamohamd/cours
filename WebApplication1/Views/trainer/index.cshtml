@@ -1,0 +1,54 @@
+﻿@model List<trainer>
+@{
+    ViewData["Title"] = "index";
+}
+
+<div class="row">
+    <div class="col-md-4 mx-auto rounded border p-3">
+
+        <h1 class="text-center mb-5 text-primary "> All Trainers</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="trainer" asp-action="add"> Add Trainer</a>
+    </div>
+</div>
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th> ID</th>
+            <th> Name</th>
+            <th> Phone</th>
+            <th> Address</th>
+            <th> Age</th>
+            <th>course</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @item.Id</td>
+                <td> @item.Name</td>
+                <td>@item.phone</td>
+                <td>@item.address</td>
+                <td>@item.age</td>
+                <td>@item.courses.Name</td>
+                                
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="trainer" asp-action="edite" asp-route-id="@item.Id">EDITE</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="trainer" asp-action="delete"
+                       asp-route-id="@item.Id" onclick="return confirm ('are you sure?')">    Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+

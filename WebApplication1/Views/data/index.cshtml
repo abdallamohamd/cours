@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "index";
+}
+
+<div class="row">
+    <div class="col-md-4 mx-auto rounded border p-3">
+
+        <h1 class="text-center  mb-5 text-danger "> ALL-Data</h1>
+    </div>
+</div>
+
+<hr />
+
+<div class="d-grid gap-2 ">
+
+    <a class="btn btn-primary " asp-controller="courses" asp-action="index" role="button">Courses</a>
+
+    <a class="btn btn-primary " asp-controller="cat" asp-action="index" role="button">Categories</a>
+
+    <a class="btn btn-primary " asp-controller="inst" asp-action="index" role="button">Instructors</a>
+
+    <a class="btn btn-primary " asp-controller="lab" asp-action="inndex" role="button">Labs</a>
+
+    <a class="btn btn-primary " asp-controller="trainer" asp-action="index" role="button">Trainers</a>
+<br />
+        <a class="btn btn-danger " asp-controller="Home" asp-action="Index" role="button"> Back To list</a>
+</div>

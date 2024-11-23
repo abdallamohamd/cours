@@ -1,0 +1,55 @@
+﻿@model WebApplication1.Models.instructor
+
+@{
+    ViewData["Title"] = "edite";
+}
+<div class="row">
+    <div class="col-md-4 mx-auto rounded border p-3">
+
+        <h1 class="text-center mb-5 text-primary "> Edite Iinstructors</h1>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="sedite" asp-route-id="@Model.Id" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sale" class="control-label"></label>
+                <input asp-for="sale" class="form-control" />
+                <span asp-validation-for="sale" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="phone" class="control-label"></label>
+                <input asp-for="phone" class="form-control" />
+                <span asp-validation-for="phone" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class=" col-sm-4 d-grid">
+
+                    <input type="submit" value="Save" class="btn btn-danger" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class=" col-sm-4 d-grid">
+        <a class="btn btn-outline-primary" asp-action="index" role="button">Back to List</a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
