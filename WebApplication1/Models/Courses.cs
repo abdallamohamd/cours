@@ -14,7 +14,6 @@ namespace WebApplication1.Models
         
         public decimal Price { get; set; }
         [Required]
-        
         public DateTime startDate { get; set; }
         [Required]
      

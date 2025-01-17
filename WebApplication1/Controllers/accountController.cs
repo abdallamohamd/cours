@@ -6,7 +6,7 @@ using WebApplication1.validation;
 
 namespace WebApplication1.Controllers
 {
-    [ex]
+    
     public class accountController : Controller
     {
         private readonly appcomtext appcomtext;

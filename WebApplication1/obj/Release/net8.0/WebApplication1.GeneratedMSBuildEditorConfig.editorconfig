@@ -17,123 +17,119 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication1
 build_property.RootNamespace = WebApplication1
-build_property.ProjectDir = E:\mohamed mahdy\c#\WebApplication1\WebApplication1\
+build_property.ProjectDir = E:\git hub\WebApplication1\WebApplication1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\mohamed mahdy\c#\WebApplication1\WebApplication1
+build_property.MSBuildProjectDirectory = E:\git hub\WebApplication1\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/account/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/account/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWNjb3VudFxhZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/account/log.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/account/log.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWNjb3VudFxsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/cat/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/cat/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0XGFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/cat/edite.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/cat/edite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0XGVkaXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/cat/index.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/cat/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2F0XGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/courses/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/courses/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlc1xhZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/courses/edite.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/courses/edite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlc1xlZGl0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/courses/index.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/courses/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlc1xpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/cours/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNcaW5kZXguY3NodG1s
+[E:/git hub/WebApplication1/WebApplication1/Views/courses/show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlc1xzaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/data/index.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/data/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGF0YVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/inst/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/inst/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5zdFxhZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/inst/edite.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/inst/edite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5zdFxlZGl0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/inst/index.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/inst/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5zdFxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/lab/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/lab/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGFiXGFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/lab/edite.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/lab/edite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGFiXGVkaXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/lab/inndex.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/lab/inndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGFiXGlubmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/role/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/role/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Nccm9sZVxhZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/Shared/ex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/trainer/add.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/trainer/add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdHJhaW5lclxhZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/trainer/edite.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/trainer/edite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdHJhaW5lclxlZGl0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/trainer/index.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/trainer/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdHJhaW5lclxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/mohamed mahdy/c\#/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
+[E:/git hub/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx

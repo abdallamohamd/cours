@@ -7,7 +7,7 @@ using WebApplication1.validation;
 namespace WebApplication1.Controllers
 {
     [Authorize]
-    [ex]
+    
     public class catController : Controller
     {
         private readonly Icategory icategory;

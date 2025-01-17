@@ -39,6 +39,17 @@ namespace WebApplication1.Controllers
             
         }
 
+        [AllowAnonymous]
+        public IActionResult show(string sstring)
+        {
+            List<Courses> courses = icourserepo.all();
+            if (!string.IsNullOrEmpty(sstring))
+            {
+                courses = courses.Where(x => x.Name.Contains(sstring)).ToList();
+            }
+            return View(courses);
+        }
+
         public IActionResult index()
         {
             List<Courses> courses = icourserepo.all(); 

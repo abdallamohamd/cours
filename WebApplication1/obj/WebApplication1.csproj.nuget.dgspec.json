@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\mohamed mahdy\\c#\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "E:\\git hub\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "E:\\mohamed mahdy\\c#\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "E:\\git hub\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\mohamed mahdy\\c#\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "E:\\git hub\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "E:\\mohamed mahdy\\c#\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "E:\\git hub\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\mohamed mahdy\\c#\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "E:\\git hub\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
